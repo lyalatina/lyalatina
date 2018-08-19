@@ -1,0 +1,54 @@
+/* Particles */
+#particles-js {
+  background-image:linear-gradient(#9232B3,#56D9C9);
+  height: 476px;
+  
+}
+/* Fin particles */
+
+
+/* Nav Bar */
+
+@media (min-width: 768px) {
+  .view {
+      overflow: visible;
+      margin-top: -56px;
+     
+  }
+}
+.navbar {
+  z-index: 1;
+  box-shadow:none;
+}
+.navbar {
+  background-color: transparent;
+}
+
+/* color nav */
+
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link{
+  color: #ffffff;
+}
+/* fin color nav */
+
+
+.top-nav-collapse {
+  background-color: #56D9C9;
+}
+@media only screen and (max-width: 768px) {
+  .navbar {
+      background-color:#56D9C9;
+  }
+}
+
+/* Fin nav bar */
+
+
+/* textName */
+.text-name{
+  position: absolute;
+  margin-top: 10em;
+  color:whitesmoke;
+}
+/* Fin textName */
+
