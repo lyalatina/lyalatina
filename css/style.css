@@ -88,17 +88,9 @@ h1{
 }
 /* Fin Párrafo */
 
-
-
-
-/* Img responsive */
-.img-fluid{
-  max-width: 100%;
-    height: auto;
-    margin-top: 5em;   
+.text-wid{
+  font-size: 1.1em;
 }
-/* Fin img responsive */
-
 
 /* imgFinger */
 #finger{
@@ -122,19 +114,26 @@ h1{
 /*=============================================
 =            Section projects            =
 =============================================*/
+
 .projects{
   background-image: linear-gradient(#ffffff,rgb(215, 245, 242));
   padding-top: 3em;
   padding-bottom: 5em;
 }
 
+/* Img responsive */
+.img-fluid{
+  max-width: 100%;
+    height: auto;
+    margin-top: 5em;   
+}
+/* Fin img responsive */
+
 /* Title projects */
 h3{
   font-size: 10vh;
   margin-top: 25vh;
   font-weight: 600;
-  margin-right: 20em;
-  z-index: -2;
 }
 /* End title project */
 
@@ -157,22 +156,18 @@ h3{
   background: #9232B3;
   height: .3em;
   width: 2em;
+}
+ .text-project{
+   font-size: 3.5vh;
+
+}
+
+
+/*----------  End project img right  ----------*/
 
 
 
 
-
-
-
-
-
-
-  
-  
-
-
-
-/* title proyecto */
 
 
 
