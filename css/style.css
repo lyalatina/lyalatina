@@ -24,6 +24,17 @@
   background-color: transparent;
 }
 
+
+/* Text Name */
+h1{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+
+
+
 /* color nav */
 
 .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link{
@@ -60,6 +71,7 @@
 /* Gradient sección 2 */
 #whatIdo{
   background-image: linear-gradient(#56D9C9,#ffffff);
+  
 }
 /* Fin gradient seccion 2 */
 
@@ -70,28 +82,105 @@
 }
 /* Fin Margin top WID */
 
+/* Parrafo  */
+#UX-UI{
+  font-size: 20px;
+}
+/* Fin Párrafo */
+
+
+
 
 /* Img responsive */
 .img-fluid{
   max-width: 100%;
     height: auto;
-    margin-top: 20%;   
+    margin-top: 5em;   
 }
 /* Fin img responsive */
 
 
 /* imgFinger */
 #finger{
-  z-index: 7;
-
+  position: absolute;
+  width:15%;
+  height:15%;
+  top:66px; 
+  left:120px; 
+  visibility: visible;
+  z-index: 10;
 }
 
 /* Fin imgFinger */
 
-@media only screen and (max-width: 425px) {
-  .img-fluid {
-
+@media only screen and (min-width: 320px) {
 }
 
-/*=====  End of Section comment block  ======*/
+/*=====  Fin Sección What I Do ======*/
+
+
+/*=============================================
+=            Section projects            =
+=============================================*/
+.projects{
+  background-image: linear-gradient(#ffffff,rgb(215, 245, 242));
+  padding-top: 3em;
+  padding-bottom: 5em;
 }
+
+/* Title projects */
+h3{
+  font-size: 10vh;
+  margin-top: 25vh;
+  font-weight: 600;
+  margin-right: 20em;
+  z-index: -2;
+}
+/* End title project */
+
+
+/* Second title project */
+.second-title{
+  font-size: 10vh;
+  font-weight: 600;
+  margin-left: 8vh;
+  ;
+}
+
+/* End second title project */
+
+.left-line {
+  content: '';
+  position: absolute;
+  left: 3.2vh;
+  top: 45vh;
+  background: #9232B3;
+  height: .3em;
+  width: 2em;
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+/* title proyecto */
+
+
+
+
+@media only screen and (min-width: 320px) {
+}
+
+
+
+/*=====  End of Section projects  ======*/
+

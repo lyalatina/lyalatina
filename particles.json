@@ -10,7 +10,7 @@
     "shape":{
       "type":"star",
       "stroke":{
-        "width":1,
+        "width":0,
         "color":"#fff"
       },
       "image":{
@@ -18,7 +18,7 @@
       }
     },
     "opacity":{
-      "value":20,
+      "value":0.75,
       "random":true,
       "anim":{
         "enable":false,
@@ -26,30 +26,30 @@
       }
     },
     "size":{
-      "value": 2,
-      "random":false,
+      "value": 7,
+      "random":true,
       "anim":{
-        "enable": true,
-        "speed":50
+        "enable": false,
+        "speed":3
       }
     },
     "line_linked":{
-      "enable": true,
-      "distance": 200,
+      "enable": false,
+      "distance": 150,
       "color":"#fff",
       "width":1
     },
     "move":{
       "enable":true,
-      "speed":8,
-      "direction":"none",
+      "speed":2,
+      "direction":"",
       "straight":false
     }
   },
   "interactivity":{
     "events":{
       "onhover":{
-        "enable":true,
+        "enable":false,
         "mode":"repulse"
       },
       "onclick":{
@@ -64,7 +64,7 @@
       },
       "bubble":{
         "distance":100,
-        "size":10
+        "size":5
       }
     }
   }
