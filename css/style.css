@@ -2,7 +2,6 @@
 #particles-js {
   background-image:linear-gradient(#9232B3,#56D9C9);
   height: 476px;
-  
 }
 /* Fin particles */
 
@@ -29,9 +28,11 @@
 
 /* Text Name */
 h1{
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 60px;
-  font-weight: 600;
+  font-size: 70px;
+  font-weight: 200;
+  font-family: 'Lato', sans-serif;
+  font-style: bold;
+  letter-spacing: 10px;
 }
 
 
@@ -162,8 +163,8 @@ h3{
 }
  .text-project{
    font-size: 3.5vh;
-
 }
+
 
 
 /*----------  End project img right  ----------*/

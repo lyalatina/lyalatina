@@ -1,0 +1,29 @@
+
+/*=============================================
+=            Encabezado             =
+=============================================*/
+
+
+h1{
+  font-family: 'Lato', sans-serif;
+
+}
+
+/* Start water line */
+.left-line {
+  content: '';
+  position: absolute;
+  left: 3.2vh;
+  top: 45vh;
+  background: #9232B3;
+  height: .3em;
+  width: 2em;
+}
+/* End water line */
+
+
+
+/*=====  End of Line   ======*/
+
+
+
