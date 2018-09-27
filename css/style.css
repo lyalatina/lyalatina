@@ -19,6 +19,8 @@
 .navbar {
   z-index: 1;
   box-shadow:none;
+  z-index: 9;
+  background-color: #ffffff;
 }
 .navbar {
   background-color: transparent;
@@ -48,7 +50,8 @@ h1{
 }
 @media only screen and (max-width: 768px) {
   .navbar {
-      background-color:#56D9C9;
+      background-color:#ffffffa9;
+      
   }
 }
 
@@ -122,7 +125,7 @@ h1{
 }
 
 /* Img responsive */
-.img-fluid{
+#p1{
   max-width: 100%;
     height: auto;
     margin-top: 5em;   
