@@ -74,17 +74,26 @@ h1{
 
 /* Gradient sección 2 */
 #whatIdo{
-  background-image: linear-gradient(#56D9C9,#ffffff);
+  background-image: linear-gradient(#56D9C9,#55b9bd13);
+  padding-bottom: 5rem;
   
 }
 /* Fin gradient seccion 2 */
 
 
+/* Start icons */
+
+
+
+/* End icons */
+
 /* Margin top WID */
+
 #WID{
   margin-top: 12rem;
 }
 /* Fin Margin top WID */
+
 
 /* Parrafo  */
 #UX-UI{
@@ -92,9 +101,11 @@ h1{
 }
 /* Fin Párrafo */
 
+
 .text-wid{
   font-size: 1.1em;
 }
+
 
 /* imgFinger */
 #finger{
@@ -120,16 +131,17 @@ h1{
 =============================================*/
 
 .projects{
-  background-image: linear-gradient(#ffffff,rgb(215, 245, 242));
-  padding-top: 3em;
-  padding-bottom: 5em;
+  background-image: linear-gradient(#55b9bd13,#ffffff);
+  padding-top: 3vh;
+  padding-bottom: 5vh;
 }
 
 /* Img responsive */
-#p1{
+#imgProjects{
   max-width: 100%;
     height: auto;
     margin-top: 5em;   
+    background-color: #67c2ab23;
 }
 /* Fin img responsive */
 
@@ -146,8 +158,7 @@ h3{
 .second-title{
   font-size: 10vh;
   font-weight: 600;
-  margin-left: 8vh;
-  ;
+   margin-left: 8vh;
 }
 
 /* End second title project */
