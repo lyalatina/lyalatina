@@ -83,9 +83,24 @@ h1{
 
 /* Start icons */
 
-
+#icons{
+  margin-top: 3rem;
+}
 
 /* End icons */
+
+
+/* Start title icons */
+h2, h5{
+  font-weight: 400
+
+}
+
+/* End title icon */
+
+
+
+
 
 /* Margin top WID */
 
@@ -137,11 +152,11 @@ h1{
 }
 
 /* Img responsive */
-#imgProjects{
+#p1{
   max-width: 100%;
     height: auto;
-    margin-top: 5em;   
-    background-color: #67c2ab23;
+    margin-top: 5vh;   
+    background-color: #4770d613;
 }
 /* Fin img responsive */
 
