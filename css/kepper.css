@@ -1,0 +1,14 @@
+
+/* Start line */
+
+.left-line {
+  content: '';
+  position: absolute;
+  left: 3.2vh;
+  top: 1vh;
+  background: rgb(76, 179, 50);
+  height: .3em;
+  width: 2em;
+}
+/* End líne */
+
