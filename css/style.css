@@ -207,7 +207,7 @@ h3{
 
 .footer-color{
   background-color: rgb(240, 246, 252);
-  width: 100%;
+  width: 100vw;
   height: 10vh;
   padding-bottom: 2vh;
   margin-top: 5vh;
