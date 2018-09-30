@@ -6,7 +6,7 @@
 /* Fin particles */
 
 
-/* Nav Bar */
+/* Nav bar */
 
 @media (min-width: 768px) {
   .view {
@@ -52,7 +52,6 @@ h1{
 @media only screen and (max-width: 768px) {
   .navbar {
       background-color:#ffffffa9;
-      
   }
 }
 
@@ -169,7 +168,7 @@ h3{
 .second-title{
   font-size: 10vh;
   font-weight: 600;
-   margin-left: 8vh;
+  margin-left: 8vh;
 }
 
 /* End second title project */
@@ -207,7 +206,7 @@ h3{
 
 .footer-color{
   background-color: rgb(240, 246, 252);
-  width: 100vw;
+  width: 100%;
   height: 10vh;
   padding-bottom: 2vh;
   margin-top: 5vh;

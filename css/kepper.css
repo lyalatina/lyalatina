@@ -1,14 +1,100 @@
+/* Nav bar */
+body{
+  background-image: linear-gradient(#8efffb6c,#8efffb6c);
+  margin-top: 10vh;
+}
+
+@media (min-width: 768px) {
+  .view {
+      overflow: visible;
+      margin-top: -56px;
+  }
+}
+.navbar {
+  z-index: 1;
+  box-shadow:none;
+  z-index: 9;
+  background-color: #ffffff;
+}
+.navbar {
+  background-color: transparent;
+}
+
+/* color nav */
+
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link{
+  color: black;  
+}
+
+/* End navbar */
+
 
 /* Start line */
 
-.left-line {
+.line-title {
   content: '';
   position: absolute;
   left: 3.2vh;
-  top: 1vh;
-  background: rgb(76, 179, 50);
+  top: 8vh;
+  background:#9232b3;
   height: .3em;
   width: 2em;
 }
 /* End líne */
+
+
+/* Titles projets */
+h1,h2,h5{
+  margin-top: 10vh;
+}
+
+h3{
+  font-size: 5vh;
+  margin-top: 15vh;
+}
+
+.second-title{
+    font-size: 5vh;
+    margin-left: 8vh;
+  }
+
+
+.left-line {
+    content: '';
+    position: absolute;
+    left: 3.2vh;
+    top: 25vh;
+    background: #9232B3;
+    height: .2em;
+    width: 2em;
+  }
+/* End title projects */
+
+
+
+/* Footer */
+.footer-color{
+  background-color: rgb(240, 246, 252);
+  width: 100%;
+  height: 10vh;
+  padding-bottom: 2vh;
+  margin-top: 5vh;
+}
+/* End footer */
+
+
+/*----------  objetivos-roles  ----------*/
+
+
+/*----------  End objetivos roles  ----------*/
+
+
+
+
+
+
+
+
+
+
 
