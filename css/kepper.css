@@ -35,10 +35,10 @@ body{
   content: '';
   position: absolute;
   left: 3.2vh;
-  top: 8vh;
+  top: 23vh;
   background:#9232b3;
   height: .3em;
-  width: 2em;
+  width: 10em;
 }
 /* End líne */
 
@@ -46,6 +46,7 @@ body{
 /* Titles projets */
 h1,h2,h5{
   margin-top: 10vh;
+  font-weight: 400;
   
   
 }
@@ -71,6 +72,7 @@ h3{
 .second-title{
     font-size: 5vh;
     margin-left: 8vh;
+    
   }
 
 
@@ -78,7 +80,7 @@ h3{
     content: '';
     position: absolute;
     left: 3.2vh;
-    top: 11vh;
+    top: 6vh;
     background: #9232B3;
     height: .2em;
     width: 2em;
@@ -88,7 +90,7 @@ h3{
     content: '';
     position: absolute;
     left: 3.2vh;
-    top: 2vh;
+    top: 13vh;
     background: #9232B3;
     height: .2em;
     width: 2em;
@@ -112,6 +114,7 @@ h3{
 /* Párrrafos */
 p{
   margin-top: 4vh;
+  font-size: 3vh;
 }
 
 
@@ -143,15 +146,33 @@ p{
 =            Background logo  keeper       =
 =============================================*/
 .fondo-diseño{
-  background-color: #67C2AC;
+  background-color: #56D9C9;
   width: 100%;
   height: 50vh;
   margin-top: 10vh;
 
 }
 
-
 /*=====  End of Background logo  ======*/
+
+
+/*=============================================
+=            User Flow            =
+=============================================*/
+.userFlow{
+  background-color: rgba(86, 217, 202, 0.308);
+  width: 100%;
+  height: 220vh;
+  margin-top: 10vh;
+ 
+}
+
+/*=====  End of User Flow  ======*/
+
+
+/* video */
+
+
 
 
 
