@@ -1,6 +1,6 @@
 
 
-  // pie
+  // pie Chart
   var ctxP = document.getElementById('pieChart').getContext('2d');
   var myPieChart = new Chart(ctxP, {
     type: 'pie',
