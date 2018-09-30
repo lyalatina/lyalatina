@@ -19,6 +19,8 @@
   <!-- Styles-->
   <link href="css/kepper.css" rel="stylesheet">
 
+  
+
 </head>
 
 <body>
@@ -122,15 +124,61 @@
     <section class="projects">
         <div class="container">
             <div class="row">
-              <div class="col-md-5 text-justify">
+              <div class="col-md-5 text-justify mt-5">
                 <h3>Entendimiento</h3>
                 <p class="left-line"></p>
-              
                 <span class="second-title">del problema</span>
-                
+              </div>
+              <div class="col-md-7 mt-5">
+                  <p>Para poder empezar a comprender lo que necesitaba el banco v/s lo que realmente necesitan.
+                    Concretamos una reunión con el product manager del banco, para poder conocer mejor el negocio de su app, y 
+                    lo que esperan de ella, además de analizar la información entregada por él.
+                    <br>
+                    Esto es lo que pudimos deducir...
+                  </p>
+                </div>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12 text-justify mt-5">
+                    <h5>Research</h5>
+                  </div>
+                    <div class="col-md-12 text-justify mt-2">
+                    <p>Entendimos que antes de empezar a realizar investigación con usuarios necesitábamos analizar la data
+                      y entender más el negocio analizando cifras importantes, para ver cómo la aplicación ha ido funcionando los 6 meses.
+                      Un punto importante que observamos, es que la raíz de las bajas descargas de la aplicación, es que la ésta se encontraba solo para sistema operativo IOS.
+                      <br>
+                      Este gráfico expresa claramente que quienes visitaban más su landing eran personas con sistema operativo Android.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pie chart -->
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                  <h5>Análisis data Landing page</h5>
+                  <canvas id="pieChart"></canvas>
+                  </div>
               </div>
             </div>
+          <!-- End pie chart -->
+          <div class="container">
+              <div class="row">
+                <div class="col-md-12 mt-5">
+                <p>Parte importante del rediseño de una aplicación, es probar y testear con usuarios, para saber cuales son 
+                  sus puntos de dolor y ver posibles mejorar en cuanto a usabilidad y diseño.
+                </p>
+                <canvas id="pieChart"></canvas>
+                </div>
+            </div>
           </div>
+          <blockquote class=bigquote></blockquote>
+
+          
+           
+          
+         
 
       
     </section>
@@ -155,6 +203,6 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- JS -->
-    <script src="app.js"></script>
+   <script src="app.js"></script>
 </body>
 </html>

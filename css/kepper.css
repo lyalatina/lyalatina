@@ -46,11 +46,26 @@ body{
 /* Titles projets */
 h1,h2,h5{
   margin-top: 10vh;
+  
+  
+}
+
+h1{
+  letter-spacing: 5px;
+}
+
+h5{
+  letter-spacing: 3px;
+}
+ 
+h2{
+  letter-spacing: 2px;
+
 }
 
 h3{
   font-size: 5vh;
-  margin-top: 15vh;
+  
 }
 
 .second-title{
@@ -63,7 +78,7 @@ h3{
     content: '';
     position: absolute;
     left: 3.2vh;
-    top: 25vh;
+    top: 11vh;
     background: #9232B3;
     height: .2em;
     width: 2em;
@@ -83,10 +98,13 @@ h3{
 /* End footer */
 
 
-/*----------  objetivos-roles  ----------*/
+/*---------- Pie chart----------*/
+#pieChart{
+ 
+  margin-top: 2rem;
+}
 
-
-/*----------  End objetivos roles  ----------*/
+/*----------  End pie chart ----------*/
 
 
 
