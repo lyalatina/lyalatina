@@ -35,10 +35,10 @@ body{
   content: '';
   position: absolute;
   left: 3.2vh;
-  top: 23vh;
+  top: 22vh;
   background:#9232b3;
   height: .3em;
-  width: 10em;
+  width: 5em;
 }
 /* End líne */
 
@@ -53,10 +53,14 @@ h1,h2,h5{
 
 h1{
   letter-spacing: 5px;
+  font-size: 8vh;
+  font-weight: 500
+  
 }
 
 h5{
   letter-spacing: 3px;
+  
 }
  
 h2{
@@ -66,34 +70,56 @@ h2{
 
 h3{
   font-size: 5vh;
+  font-weight: 400
   
 }
 
+/* hr seccion objetivo */
+
+.objetivos{
+  position: absolute;
+  left: 2.5vh;
+  top: 11vh;
+  background: #9232B3;
+  height: .1em;
+  width: 5em;
+}
+
+
+.subtitle{
+  font-size: 8vh;
+  font-weight: 400;
+  margin-left: 18vh;
+
+}
+
+
 .second-title{
     font-size: 5vh;
-    margin-left: 8vh;
+    font-weight: 400
+    
     
   }
 
 
-.left-line {
+.up-line {
     content: '';
     position: absolute;
     left: 3.2vh;
-    top: 6vh;
+    top: -9vh;
     background: #9232B3;
-    height: .2em;
-    width: 2em;
+    height: .3em;
+    width: 7em;
   }
 
-  .subtitle-line{
+  .solucion-line{
     content: '';
     position: absolute;
     left: 3.2vh;
-    top: 13vh;
+    top: 2vh;
     background: #9232B3;
-    height: .2em;
-    width: 2em;
+    height: .3em;
+    width: 7em;
   }
 /* End title projects */
 
