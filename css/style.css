@@ -16,13 +16,58 @@
   }
 }
 .navbar {
-  z-index: 1;
   box-shadow:none;
-  z-index: 9;
-  background-color: #ffffff;
+  background-color: #ffffff3f;
+  transition: 0.5s ease;
+
 }
-.navbar {
-  background-color: transparent;
+
+
+.navbar .nav .item {
+  list-style: none;
+  display: inline-block;
+  font-size: 18px;
+  padding: 5px;
+  font-weight: 300;
+  line-height: 80px;
+  margin-right: 20px;
+  transition: 0.5s ease;
+}
+
+
+
+.navbar .nav .item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.scrolled {
+  transition: 0.5s ease;
+ }
+ 
+ .scrolled.navbar {
+   background-color: #ffffff;
+   transition: 0.5s ease;
+   color: black;
+ 
+ }
+
+ scrolled.navbar .nav .item {
+  line-height: 40px;
+  transition: 0.5s ease;
+  
+  
+}
+
+
+
+/* color nav */
+
+scrolled.navbar.navbar-dark .navbar-nav .nav-item .nav-link{
+  color: black;  
+  transition: 0.5s ease;
+  
+  
 }
 
 
@@ -48,6 +93,7 @@ h1{
 
 .top-nav-collapse {
   background-color: #56D9C9;
+ 
 }
 @media only screen and (max-width: 768px) {
   .navbar {

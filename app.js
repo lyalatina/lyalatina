@@ -1,5 +1,13 @@
 
-
+ $(document).ready(function() {
+  $(window).on('scroll', function() {
+    if (Math.round($(window).scrollTop()) > 100) {
+      $('.navbar').addClass('scrolled');
+    } else {
+      $('.navbar').removeClass('scrolled');
+    }
+  });
+});
   // pie Chart
   var ctxP = document.getElementById('pieChart').getContext('2d');
   var myPieChart = new Chart(ctxP, {
@@ -19,21 +27,11 @@
     },
   });
 
+
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
 particlesJS.load
   ('particles-js', 'particles.json', function() {
     console.log('callback - particles.js config loaded');
   });
 
-
-// PARALLAX
-
-// object-fit polyfill run
-objectFitImages();
-
-/* init Jarallax */
-jarallax(document.querySelectorAll('.jarallax'));
-
-jarallax(document.querySelectorAll('.jarallax-keep-img'), {
-    keepImg: true,
-});
+ 
