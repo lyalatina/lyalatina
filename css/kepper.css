@@ -1,7 +1,8 @@
 /* Nav bar */
 body{
-  background-image: linear-gradient(#8efffb48,#8efffb2f);
+  background: linear-gradient(#8efffb18,#ffffff);
   margin-top: 10vh;
+  
 }
 
 @media (min-width: 768px) {
@@ -15,6 +16,7 @@ body{
   box-shadow:none;
   z-index: 9;
   background-color: #ffffff;
+  
 }
 .navbar {
   background-color: transparent;
@@ -24,6 +26,7 @@ body{
 
 .navbar.navbar-dark .navbar-nav .nav-item .nav-link{
   color: black;  
+  
 }
 
 /* End navbar */
@@ -35,10 +38,10 @@ body{
   content: '';
   position: absolute;
   left: 3.2vh;
-  top: 22vh;
+  top: 1vh;
   background:#9232b3;
-  height: .3em;
-  width: 5em;
+  height: .4em;
+  width:50vh;
 }
 /* End líne */
 
@@ -52,9 +55,11 @@ h1,h2,h5{
 }
 
 h1{
-  letter-spacing: 5px;
+  letter-spacing: 2vh;
   font-size: 8vh;
   font-weight: 500
+  
+  
   
 }
 
@@ -89,7 +94,7 @@ h3{
 .subtitle{
   font-size: 8vh;
   font-weight: 400;
-  margin-left: 18vh;
+  
 
 }
 
@@ -97,8 +102,6 @@ h3{
 .second-title{
     font-size: 5vh;
     font-weight: 400
-    
-    
   }
 
 
@@ -106,7 +109,7 @@ h3{
     content: '';
     position: absolute;
     left: 3.2vh;
-    top: -9vh;
+    top: 1vh;
     background: #9232B3;
     height: .3em;
     width: 7em;
@@ -116,15 +119,12 @@ h3{
     content: '';
     position: absolute;
     left: 3.2vh;
-    top: 2vh;
+    top: 1vh;
     background: #9232B3;
     height: .3em;
     width: 7em;
   }
 /* End title projects */
-
-
-
 
 
 
@@ -143,29 +143,8 @@ p{
   font-size: 3vh;
 }
 
-
-
-
-
 /* End párrafos */
 
-
-/* Footer */
-.footer-line{
-  height: 0.1vh;
-  width: 100%;
-  margin-top: 15vh;
-  background: rgb(237, 231, 240);
-}
-
-.footer-color{
-  background-color: rgb(240, 246, 252);
-  width: 100%;
-  height: 10vh;
-  padding-bottom: 2vh;
-  margin-top: 5vh;
-}
-/* End footer */
 
 
 /*=============================================
@@ -186,7 +165,7 @@ p{
 =            User Flow            =
 =============================================*/
 .userFlow{
-  background-color: rgba(86, 217, 202, 0.308);
+  background-color: rgba(122, 118, 117, 0.157);
   width: 100%;
   height: 220vh;
   margin-top: 10vh;
@@ -197,13 +176,45 @@ p{
 
 
 /* video */
+.imgIphone6{
+  background-color: white;
+  
+  
+}
+
+#prototype{
+  max-height: 500px;
+  margin-top: 8vh;
+  margin-bottom: 10vh;
+  padding-bottom: 10vh;
+}
 
 
 
+/*=====  footer  ======*/
+.footer-line{
+  height: 0.1vh;
+  width: 100%;
+  margin-top: 15vh;
+  background: rgb(237, 231, 240);
+}
 
+.footer-color{
+  background-color: rgb(240, 246, 252);
+  width: 100%;
+  height: 10vh;
+  padding-bottom: 2vh;
+  margin-top: 5vh;
+}
+/*=====  End footer ======*/
 
+@media only screen and (min-width: 320px) {
+  .video-fluid{
 
+  width: 100%
+}
 
+  }
 
 
 

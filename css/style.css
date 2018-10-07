@@ -157,7 +157,7 @@ h2, h5{
 
 /* Title projects */
 h3{
-  font-size: 10vh;
+  font-size: 8vh;
   margin-top: 18vh;
   font-weight: 600;
 }
@@ -166,7 +166,7 @@ h3{
 
 /* Second title project */
 .second-title{
-  font-size: 10vh;
+  font-size: 8vh;
   font-weight: 600;
   margin-left: 8vh;
 }
@@ -177,7 +177,7 @@ h3{
   content: '';
   position: absolute;
   left: 3.2vh;
-  top: 38vh;
+  top: 34vh;
   background: #9232B3;
   height: .3em;
   width: 2em;

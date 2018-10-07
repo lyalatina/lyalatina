@@ -1,29 +1,220 @@
-
-/*=============================================
-=            Encabezado             =
-=============================================*/
-
-
-h1{
-  font-family: 'Lato', sans-serif;
-
+/* Nav bar */
+body{
+  background: linear-gradient(#760f9c15,#ffffff);
+  margin-top: 10vh;
+  
 }
 
-/* Start water line */
-.left-line {
+@media (min-width: 768px) {
+  .view {
+      overflow: visible;
+      margin-top: -56px;
+  }
+}
+.navbar {
+  z-index: 1;
+  box-shadow:none;
+  z-index: 9;
+  background-color: #ffffff;
+  
+}
+.navbar {
+  background-color: transparent;
+}
+
+/* color nav */
+
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link{
+  color: black;  
+  
+}
+
+/* End navbar */
+
+
+/* Start line */
+
+.line-title {
   content: '';
   position: absolute;
   left: 3.2vh;
-  top: 45vh;
-  background: #9232B3;
-  height: .3em;
-  width: 2em;
+  top: 1vh;
+  background:#9232b3;
+  height: .4em;
+  width:50vh;
 }
-/* End water line */
+/* End líne */
+
+
+/* Titles projets */
+h1,h2,h5{
+  margin-top: 10vh;
+  font-weight: 400;
+  
+  
+}
+
+h1{
+  letter-spacing: 2vh;
+  font-size: 8vh;
+  font-weight: 500
+  
+  
+  
+}
+
+h5{
+  letter-spacing: 3px;
+  
+}
+ 
+h2{
+  letter-spacing: 2px;
+
+}
+
+h3{
+  font-size: 5vh;
+  font-weight: 400
+  
+}
+
+/* hr seccion objetivo */
+
+.objetivos{
+  position: absolute;
+  left: 2.5vh;
+  top: 11vh;
+  background: #9232B3;
+  height: .1em;
+  width: 5em;
+}
+
+
+.subtitle{
+  font-size: 8vh;
+  font-weight: 400;
+  
+
+}
+
+
+.second-title{
+    font-size: 5vh;
+    font-weight: 400
+  }
+
+
+.up-line {
+    content: '';
+    position: absolute;
+    left: 3.2vh;
+    top: 1vh;
+    background: #9232B3;
+    height: .3em;
+    width: 7em;
+  }
+
+  .solucion-line{
+    content: '';
+    position: absolute;
+    left: 3.2vh;
+    top: 1vh;
+    background: #9232B3;
+    height: .3em;
+    width: 7em;
+  }
+/* End title projects */
 
 
 
-/*=====  End of Line   ======*/
+/*---------- Pie chart----------*/
+#pieChart{
+ 
+  margin-top: 2rem;
+}
+
+/*----------  End pie chart ----------*/
+
+
+/* Párrrafos */
+p{
+  margin-top: 4vh;
+  font-size: 3vh;
+}
+
+/* End párrafos */
+
+
+
+/*=============================================
+=            Background logo  keeper       =
+=============================================*/
+.fondo-diseño{
+  background-color: #56D9C9;
+  width: 100%;
+  height: 50vh;
+  margin-top: 10vh;
+
+}
+
+/*=====  End of Background logo  ======*/
+
+
+/*=============================================
+=            User Flow            =
+=============================================*/
+.userFlow{
+  background-color: rgba(122, 118, 117, 0.157);
+  width: 100%;
+  height: 220vh;
+  margin-top: 10vh;
+ 
+}
+
+/*=====  End of User Flow  ======*/
+
+
+/* video */
+.imgIphone6{
+  background-color: white;
+  
+  
+}
+
+#prototype{
+  max-height: 500px;
+  margin-top: 8vh;
+  margin-bottom: 10vh;
+  padding-bottom: 10vh;
+}
+
+
+
+/*=====  footer  ======*/
+.footer-line{
+  height: 0.1vh;
+  width: 100%;
+  margin-top: 15vh;
+  background: rgb(237, 231, 240);
+}
+
+.footer-color{
+  background-color: rgb(240, 246, 252);
+  width: 100%;
+  height: 10vh;
+  padding-bottom: 2vh;
+  margin-top: 5vh;
+}
+/*=====  End footer ======*/
+
+@media only screen and (min-width: 320px) {
+  .video-fluid{
+
+  width: 100%
+}
+
+  }
 
 
 
