@@ -1,6 +1,6 @@
 /* Particles */
 #particles-js {
-  background-image:linear-gradient(rgba(147, 50, 179, 0.233),rgba(86, 217, 202, 0.26));
+  background-image:linear-gradient(rgba(147, 50, 179, 0.342),rgba(86, 217, 202, 0.363));
   height: 476px;
 }
 /* Fin particles */
@@ -114,7 +114,7 @@ h1{
 
 /* Gradient sección 2 */
 #whatIdo{
-  background-image: linear-gradient(rgba(86, 217, 202, 0.26),#55b9bd13);
+  background-image: linear-gradient(rgba(86, 217, 202, 0.363),#55b9bd13);
   padding-bottom: 5rem;
   
 }
