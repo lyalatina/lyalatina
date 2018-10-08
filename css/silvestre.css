@@ -1,6 +1,6 @@
 /* Nav bar */
 body{
-  background: linear-gradient(#760f9c15,#ffffff);
+  background: linear-gradient(rgba(147, 50, 179, 0.185),#ffffff);
   margin-top: 10vh;
   
 }
@@ -14,7 +14,7 @@ body{
 }
 .navbar {
   box-shadow:none;
-  background-color: #ffffff3f;
+  background-color: transparent;
   transition: 0.5s ease;
 
 }
